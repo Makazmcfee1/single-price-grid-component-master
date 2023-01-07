@@ -36,6 +36,7 @@ button {
   max-height: 350px;
   height: 100vh;
   margin: auto;
+  border:1px;
 }
 .top-section {
   display: block;
