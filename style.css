@@ -93,6 +93,9 @@ button {
   padding: 0.5rem;
   margin-top: 2rem;
 }
+#btn:hover{
+  background-color: var(--grayishBlue);
+}
 .bot-right {
   display: inline-block;
   background-color: var(--lightcyan);
