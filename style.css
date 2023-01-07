@@ -6,15 +6,19 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
   background-color: var(--lightGray);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Karla", sans-serif;
-  max-width: 1440px;
+  max-width: 90rem;
 }
 
 button {
@@ -29,9 +33,8 @@ button {
   --grayishBlue: hsl(218, 22%, 67%);
 }
 #card {
-  max-width: 600px;
-  max-height: 350px;
-  height: 100vh;
+  max-width:18.8976rem;
+  max-height:14.1732rem;
   margin: auto;
   border: 1px;
   
@@ -43,6 +46,7 @@ button {
   word-wrap: break-word;
   padding: 2rem;
   border-radius: 0.5rem 0.5rem 0 0;
+  height:7.0866rem;
 }
 .top-section > h1 {
   color: var(--cyan);
@@ -61,6 +65,7 @@ button {
 
 .bottom {
   display: flex;
+  height:7.0866rem;
 }
 .bot-left {
   display: inline-block;
@@ -78,7 +83,7 @@ button {
   gap: 0.3rem;
 }
 .twentynine {
-  font-size: 25px;
+  font-size:1.56rem;
 }
 .permonth {
   color: var(--lightGray);
@@ -112,14 +117,14 @@ footer {
   margin-top: auto;
 }
 .attribution {
-  font-size: 11px;
+  font-size:0.69rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width:23.44rem) {
   .bottom {
     display: flex;
     flex-direction: column;
