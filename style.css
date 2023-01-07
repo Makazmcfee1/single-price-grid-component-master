@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-* {
-  margin: 0;
-}
-
 html,
 body {
   height: 100%;
@@ -36,9 +32,9 @@ button {
   max-width: 600px;
   max-height: 350px;
   height: 100vh;
-
-  margin: auto 0;
+  margin: auto;
   border: 1px;
+  
 }
 .top-section {
   display: block;
@@ -46,6 +42,7 @@ button {
   width: 100%;
   word-wrap: break-word;
   padding: 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 .top-section > h1 {
   color: var(--cyan);
@@ -71,6 +68,7 @@ button {
   color: white;
   width: 50%;
   padding: 2rem;
+  border-radius:0 0 0 0.5rem;
 }
 .bot-left > h2 {
   font-size: 1.4rem;
@@ -101,6 +99,7 @@ button {
   color: white;
   width: 50%;
   padding: 2rem;
+  border-radius:0 0 0.5rem 0;
 }
 .bot-right > h2 {
   font-size: 1.4rem;
