@@ -20,7 +20,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Karla", sans-serif;
-  
 }
 
 button {
@@ -38,13 +37,13 @@ button {
   border: 1px;
   overflow: hidden;
   border-radius: 0.5rem;
-  height:84vh;
-  width:52vw;
+  height: 84vh;
+  width: 52vw;
 }
 .top-section {
   width: 100%;
   background-color: white;
-  padding:1rem 3.5rem 3.5rem 2.5rem;
+  padding: 1rem 3.5rem 3.5rem 2.5rem;
   height: 47%;
 }
 .top-section > h1 {
@@ -66,27 +65,26 @@ button {
   flex-wrap: wrap;
 }
 
-
 .bot-left {
   flex: 50%;
   height: 53%;
   background-color: var(--cyan);
   color: white;
-  padding:0 0 2.5rem 2.5rem;
-  
+  padding: 0 0 2.5rem 2.5rem;
+  border-radius: 0 0 0 0.5rem;
 }
 .bot-left > h2 {
   font-size: 1.3rem;
 }
-.bot-left>p{
-  padding-right:2.15rem;
+.bot-left > p {
+  padding-right: 2.15rem;
 }
 .price {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.permonth{
+.permonth {
   opacity: 0.7;
 }
 
@@ -110,59 +108,31 @@ button {
   margin-top: 1rem;
 }
 #btn:hover {
-  background-color: var(--lightGray);
+  background-color: var(--brightYellow);
+  opacity: 0.8;
 }
 .bot-right {
   flex: 50%;
   height: 53%;
   background-color: var(--lightcyan);
   color: white;
-  padding:0 0 2.5rem 2.5rem;
-  
-  
-  
+  padding: 0 0 1.85rem 2.5rem;
+  border-radius:0 0 0.5rem 0;
 }
 .bot-right > h2 {
   font-size: 1.3rem;
 }
-.bot-right>p{
+.bot-right > p {
   line-height: 1.2;
 }
 
 @media screen and(max-width:375px) {
-  /*body{
-    display:flex;
-    min-height:100vh;
-    justify-content: center;
-    align-items: center;
-  }*/
-  .card{
-    height:800px;
-    width:265px;
-  /*justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    flex-wrap: wrap;
-  }*/
-  /*.top-section{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;*/
-
-  /*display:flex;
-    flex-direction:column;*/
-  /*height:33.33vh;
-  }*/
+ 
 
   .bot-left {
     flex-direction: column;
-    /*flex:50%;*/
-    /*height:33.33vh;*/
   }
   .bot-right {
     flex-direction: column;
-    /*flex:50%;*/
-    /*height:33.33vh;*/
   }
 }
