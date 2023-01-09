@@ -6,7 +6,7 @@
 
 html,
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--lightGray);
   display: flex;
   justify-content: center;
@@ -117,7 +117,7 @@ button {
   background-color: var(--lightcyan);
   color: white;
   padding: 0 0 1.85rem 2.5rem;
-  border-radius:0 0 0.5rem 0;
+  border-radius: 0 0 0.5rem 0;
 }
 .bot-right > h2 {
   font-size: 1.3rem;
@@ -127,8 +127,6 @@ button {
 }
 
 @media screen and(max-width:375px) {
- 
-
   .bot-left {
     flex-direction: column;
   }
